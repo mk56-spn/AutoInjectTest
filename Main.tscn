@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cleod8ffl6yva"]
+
+[ext_resource type="Script" path="res://FruitTree.cs" id="1_bvips"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="FruitTree" type="Node" parent="."]
+script = ExtResource("1_bvips")
